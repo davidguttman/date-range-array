@@ -6,10 +6,26 @@
   "scripts": {
     "test": "node test.js"
   },
-  "keywords": ["date", "date range", "array", "time"],
+  "keywords": [
+    "date",
+    "date range",
+    "array",
+    "time"
+  ],
   "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
   "license": "MIT",
   "devDependencies": {
     "tape": "^4.0.0"
-  }
+  },
+  "dependencies": {
+    "tape": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidguttman/date-range-array.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidguttman/date-range-array/issues"
+  },
+  "homepage": "https://github.com/davidguttman/date-range-array#readme"
 }
