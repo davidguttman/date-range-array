@@ -3,6 +3,10 @@ module.exports = function(start, end) {
     throw new Error('Required arguments: startDate, endDate')
   }
 
+  if (start > end) {
+    throw new Error('End date cannot come before the start date')
+  }
+
   var dates = [start]
 
   var curDate = start

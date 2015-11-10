@@ -11,5 +11,6 @@ tape('bad input', function(t) {
   t.throws(function() {dra()}, /Required/)
   t.throws(function() {dra('2015-10-20')}, /Required/)
   t.throws(function() {dra('abds', 'junk')}, /Unrecognized/)
+  t.throws(function() {dra('2014-01-01', '2013-12-31')}, /End date cannot come before the start date/)
   t.end()
 })
